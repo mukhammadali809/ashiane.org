@@ -1,0 +1,115 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+} 
+body{
+    background: #000;
+}
+.container{
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    position: relative;
+} 
+.ashiane_homepage_bottom{
+    margin-top: 242px;
+}
+.ashiane_simbol_block{
+    height: 246px;
+    padding: 0px 200px 0px 200px;
+    background: #fff;
+    position: absolute;
+    top: 278px;
+}
+
+/* abouthome.html START */
+.links_block{
+    display: flex;
+    background: #fff;
+    position: absolute;
+    top: 279px;
+    width: 650px;
+}
+
+/* ashiane_links_block */
+.ashiane_links_block{
+    display: flex;
+}
+.more_links{
+    padding-top: 19px;
+}
+.ashiane_item{
+    margin-bottom: 33px;
+}
+.ashiane_item:nth-last-of-type(6) .ashiane_links{
+    color: #993333;
+}
+.ashiane_links{
+    font-size: 14px;
+    color: #0099CC;
+    font-family: "roboto-bold";
+    padding: 10px 13px 25px 9px;
+    transition: 0.3s;
+}
+.ashiane_links:hover{
+    color: #993333;
+}
+
+/* mission_statement_block */
+.mission_statement_block{
+    display: flex;
+    margin-left: 10px;
+}
+.mission_statement_title{
+    font-size: 13px;
+    font-family: "roboto-bold";
+    color: #993333;
+    margin-right: 5px;
+}
+.mission_statement_link{
+    font-size: 14px;
+    color: #0099CC;
+    font-family: "roboto-bold";
+    text-decoration: underline;
+}
+.mission_statement_line{
+    border-left: 1px solid grey;
+    padding: 0px 5px 0px 0px;
+}
+.mission_statement_line:nth-last-of-type(1){
+    margin-left: 5px;
+}
+
+/* text_block START */
+.title_block{
+    background: #fff;
+    width: 650px;
+    margin-top: 91px;
+}
+.text_block{
+    width: 587px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_block_title{
+    font-size: 13px;
+    color: #993333;
+    font-family: "roboto-regular";
+    padding-top: 14px;
+}
+.text_block_text{
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    font-family: "roboto-regular";
+    padding-bottom: 16px;
+}
